@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #1f2937;
+  height: 400px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navitems {
+  color: white;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.h-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.h-contentbox {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  color: white;
+}
+
+.h-contenttext {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-basis: 400px;
+}
+
+.joinbutton {
+  color: white;
+  background-color: #3882f6;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  border: 0;
+}
+.h-content h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.imgph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  height: 200px;
+  width: 350px;
+}
+
+/* font section */
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
