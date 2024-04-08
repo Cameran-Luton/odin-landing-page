@@ -113,16 +113,60 @@
 }
 
 .section-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #e5e7eb;
   height: 400px;
 }
+.s-two-content {
+  margin: 50px 100px 50px 100px;
+  font-size: 22pt;
+  color: #1f2937;
+}
+.qoutesign {
+  font-size: 18pt;
+  text-align: end;
+}
 .section-three {
-  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  border-radius: 5px;
+  font-size: 10pt;
+  background-color: #3882f6;
+  height: 100px;
+  width: 70%;
+}
+
+.cta-button {
+  color: white;
+  height: 30px;
+  width: 100px;
+  border: 2px solid white;
+  background-color: #3882f6;
+  border-radius: 5px;
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #1f2937;
   height: 80px;
+}
+.copyright {
+  color: white;
+  font-size: 10pt;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* font section */
@@ -136,4 +180,16 @@
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
